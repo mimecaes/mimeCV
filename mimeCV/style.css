@@ -1,13 +1,9 @@
 .container {
   border-radius: 20px;
 
-  background: radial-gradient(
-    circle at center,
-    #ff9a9e 0%,
-    #fad0c4 30%,
-    #a18cd1 65%,
-    #fbc2eb 100%
-  );
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
 
   display: flex;
   align-items: center;
@@ -19,14 +15,30 @@
   padding-left: 50px;
 
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .column {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-end;
+  padding-right: 40px;
+  gap: 20px;
+}
+
+.columnmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding-right: 40px;
   gap: 20px;
 }
 
@@ -88,7 +100,7 @@
 
 .card:hover {
   opacity: 1;
-  transform: translateY(-8px);
+  transform: translateY(-7px) translateX(-25px);
   border: 4px solid #fbc2eb;
 }
 
@@ -104,9 +116,17 @@ body {
 }
 
 .title {
-  font-size: 42px;
-  font-weight: 700;
-  color: #6c4ab6;
+  background: linear-gradient(90deg, #dc9267, #947acf, #b24d96);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 6s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .subtitle {
