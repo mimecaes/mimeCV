@@ -252,3 +252,6 @@ El grado de autonomía, responsabilidad técnica y liderazgo aumenta dependiendo
 
 --- Justificación del enfoque del sitio web desarrollado ---
 Más que un proyecto académico, el sitio funciona como evidencia práctica de mis habilidades técnicas, demostrando que soy capaz de desarrollar interfaces funcionales, estructuradas y orientadas a buenas prácticas. Además, refleja una mentalidad profesional enfocada en el aprendizaje continuo, la adaptabilidad y el trabajo colaborativo, cualidades altamente valoradas en los puestos analizados. 
+
+--- LINK FIGMA ---
+https://www.figma.com/design/ReRpkvTdLyWqqbp7Tgarpo/Untitled?node-id=0-1&t=lTGfaZHSvd6Jh1tp-1
