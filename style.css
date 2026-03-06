@@ -5,12 +5,12 @@
   background-size: 400% 400%;
   animation: gradientBG 10s ease infinite;
 
-  display: flex;
   align-items: center;
   justify-content: center;
 
-  width: 1425px;
-  height: 787px;
+ max-width: 1425px;
+ width: 100%;
+ min-height: 100vh;
 
   padding-left: 50px;
 
@@ -79,9 +79,11 @@
   color: #a18cd1;
 }
 
-.card {
-  width: 500px;
-  height: 200px;
+  .card {
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+
   background: white;
   border-radius: 15px;
   overflow: hidden;
@@ -140,4 +142,28 @@ body {
   font-weight: 400;
   color: #444444; 
   line-height: 1.6;
+}
+
+@media (max-width: 768px){
+
+  .container{
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .column{
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .columnmain{
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .row{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
 }
