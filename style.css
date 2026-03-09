@@ -127,6 +127,7 @@ body {
   background: linear-gradient(90deg, #dc9267, #947acf, #b24d96);
   background-size: 300% 300%;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 6s ease infinite;
 }
@@ -304,6 +305,88 @@ body {
   text-align: right;
 }
 
+.education-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  border: 2px solid transparent;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  border-color: #fbc2eb;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.education-header h4 {
+  margin: 0;
+  font-size: 22px;
+  color: #d65db1;
+}
+
+.education-status {
+  background: #fff;
+  border: 2px solid #a18cd1;
+  border-radius: 999px;
+  padding: 6px 12px;
+  color: #7d62bb;
+  font-weight: 600;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.education-institution {
+  color: #6f5aa5;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.education-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.education-detail-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 14px;
+  border: 1px solid #f1e5fa;
+}
+
+.education-detail-item strong {
+  display: block;
+  color: #a18cd1;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.education-detail-item span {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
 @media (max-width: 768px){
 
   .container{
@@ -356,6 +439,27 @@ body {
   .skill-bar-item {
     grid-template-columns: 90px 1fr 45px;
     gap: 15px;
+  }
+
+  .education-card {
+    padding: 20px;
+  }
+
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .education-header h4 {
+    font-size: 20px;
+  }
+
+  .education-status {
+    font-size: 12px;
+  }
+
+  .education-details {
+    grid-template-columns: 1fr;
   }
 
 }
