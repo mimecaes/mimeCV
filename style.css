@@ -151,6 +151,25 @@ body {
   line-height: 1.6;
 }
 
+.columnmain > .text {
+  max-width: 640px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-left: 6px solid #d65db1;
+  border-radius: 14px;
+  padding: 18px 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
+  position: relative;
+  color: #3c3652;
+}
+
+.columnmain > .text::first-letter {
+  font-size: 1.35em;
+  font-weight: 700;
+  color: #a150b8;
+}
+
 .divider-full {
   width: 100%;
   height: 3px;
@@ -408,6 +427,11 @@ body {
     text-align: center;
     align-items: center;
     padding-right: 0;
+  }
+
+  .columnmain > .text {
+    text-align: left;
+    padding: 16px;
   }
 
   .row{
