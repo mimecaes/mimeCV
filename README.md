@@ -1,6 +1,7 @@
 # mimeCV
 
-1. Frontend Developer – DNAMIC
+1. Frontend Developer
+. https://cr.linkedin.com/jobs/view/frontend-developer-at-invesp-4356173791
 
 Nombre del puesto:
 Frontend Developer
@@ -47,7 +48,8 @@ Optimización de rendimiento
 
 Colaboración con diseñadores UX/UI
 
-2. Senior Frontend Developer – Proxify
+2. Senior Frontend Developer
+. https://cr.linkedin.com/jobs/view/frontend-web-developer-remote-latin-america-at-fullstack-4236463562
 
 Nombre del puesto:
 Senior Frontend Developer (Angular/React)
@@ -94,7 +96,8 @@ Code review
 
 Trabajo en equipos internacionales
 
-3. Mid Frontend JavaScript Developer – Speck
+3. Mid Frontend JavaScript Developer
+. https://cr.linkedin.com/jobs/view/frontend-developer-react-at-h-co-4324927994
 
 Nombre del puesto:
 Mid Frontend JavaScript Developer
@@ -139,7 +142,8 @@ Participación en planificación técnica
 
 Mejora continua del producto
 
-4. Frontend Developer Intern – viewStruct
+4. Frontend Developer Intern
+. https://www.linkedin.com/jobs/view/front-end-developer-react-angular-at-seek-4368043572 
 
 Nombre del puesto:
 Frontend Developer Intern (React)
@@ -182,7 +186,8 @@ Corrección de errores
 
 Aprendizaje continuo
 
-5. Frontend Developer (AEM & ReactJS) – Confidential Jobs
+5. Frontend Developer (AEM & ReactJS) 
+. https://bg.linkedin.com/jobs/view/frontend-developer-at-hcltech-4365824999 
 
 Nombre del puesto:
 Frontend Developer (AEM & ReactJS)
